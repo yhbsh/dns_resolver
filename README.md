@@ -10,3 +10,14 @@
 ```console
 mkdir build && cd build && cmake .. && make
 ```
+
+# How to understand the code
+- I highly suggest you read manpages of the following functions:
+    - getaddrinfo
+    - inet_ntop
+```console
+man getaddrinfo
+```
+```console
+man inet_ntop
+```
