@@ -8,7 +8,7 @@
 
 # Build
 ```console
-mkdir build && cd build && cmake .. && make
+$ mkdir build && cd build && cmake .. && make
 ```
 
 # How to understand the code
@@ -16,8 +16,8 @@ mkdir build && cd build && cmake .. && make
     - getaddrinfo
     - inet_ntop
 ```console
-man getaddrinfo
+$ man getaddrinfo
 ```
 ```console
-man inet_ntop
+$ man inet_ntop
 ```
