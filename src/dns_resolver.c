@@ -7,14 +7,14 @@
 #include <sys/types.h>  // For data types
 #include <unistd.h>     // For close function
 
-void usage() {
-  printf("Usage: ./dns_resolver hostname\n");
-  printf("Example: ./dns_resolver google.com\n");
+void usage(const char *program) {
+  printf("Usage: %s hostname\n", program);
+  printf("Example: %s google.com\n", program);
 }
 
 int main(int argc, char *argv[]) {
-  if (argc < 2) {
-    usage();
+  if (argc != 2) {
+    usage(argv[0]);
     return 0;
   }
 
