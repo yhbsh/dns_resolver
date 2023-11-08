@@ -1,4 +1,4 @@
-# A simple dns resolver in pure c
+# A simple dns resolver in pure c for educational purposes
 
 # Features
 - input: example.com
