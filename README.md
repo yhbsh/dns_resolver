@@ -5,3 +5,8 @@
 - output: (List of ip addresses IPV4 & IPV6 of example.com)
 	93.184.216.34
 	93.184.216.34
+
+# Build
+```console
+$ mkdir build && cd build && cmake .. && make
+```
