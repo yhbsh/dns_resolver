@@ -8,7 +8,7 @@
 
 # Build
 ```console
-$ mkdir build && cd build && cmake .. && make
+$ mkdir -p build && cd build && cmake .. && make
 ```
 
 # How to understand the code
