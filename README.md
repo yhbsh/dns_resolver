@@ -1,5 +1,9 @@
 # A simple dns resolver in pure c for educational purposes
 
+# Demo
+
+https://github.com/HoussemBousmaha/dns_resolver/assets/86262467/adf17344-0e0f-4db0-bbcf-b76d70d1dc31
+
 # Features
 - input: example.com
 - output: (List of ip addresses IPV4 & IPV6 of example.com)
